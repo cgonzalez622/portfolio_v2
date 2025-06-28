@@ -18,13 +18,22 @@
         <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
             <h1 class="w3-xlarge">GRAPHIC DESIGNER</h1>
             <h1>Camille Gonzalez</h1>
-            <div class="w3-padding-32">
-                <div class="w3-bar w3-border">
-                    <a href="#" class="w3-bar-item w3-button w3-light-grey">Portfolio</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hide-small">Capstone</a>
-                    <a href="#" class="w3-bar-item w3-button">Contact</a>
-                </div>
+        <!-- Navbar (placed at the bottom of the header image) -->
+        <div class="w3-padding-32 w3-display-topmiddle w3-hide-small">
+            <div class="w3-bar w3-border">
+            <a href="./index.html" class="w3-bar-item w3-button w3-light-grey">Portfolio</a>
+            <a href="./capstone.html" class="w3-bar-item w3-button">Capstone</a>
+            <a href="./index.html#contact" class="w3-bar-item w3-button">Contact</a>
             </div>
+        </div>
+            <!-- Navbar on small screens -->
+        <div class="w3-center w3-padding-16w3 w3-hide-large w3-hide-medium">
+            <div class="w3-bar w3-border">
+                <a href="./index.html" class="w3-bar-item w3-button w3-light-grey">Portfolio</a>
+                <a href="./capstone.html" class="w3-bar-item w3-button">Capstone</a>
+                <a href="./index.html#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
         </header>
 
         <!-- Photo Grid -->
@@ -55,7 +64,7 @@
                 </div>
                 <div class="image-container">
                     <img src="./assets/mia2/title.png" alt="mia2" style="width:100%">
-                    <a href="#" class="overlay-text">Mia Experiential Interaction</a>   
+                    <a href="./mia2.html" class="overlay-text">Mia Experiential Interaction</a>   
                 </div>
                 <div class="image-container">
                     <img src="./assets/motion_design/about-pic.gif" alt="motion" style="width:100%">
@@ -63,14 +72,15 @@
                 </div>
             </div>
         </div>
-
-    <!-- End Page Content -->
     </div>
-
-<!-- Footer -->
-    <footer class="w3-container w3-padding-64 w3-center w3-large"> 
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <!-- End Page Content -->
+    <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large" id="contact"> 
+        <a href="https://www.linkedin.com/in/camille-gonzalez-741268182/">
+            <img src="./assets/linkedin.png" alt="linkedin" style="width: 50px; height: 50px;">
+        </a>
+    <p>Connect with me at C.gonzalez0017@gmail.com | +1 (651)-253-9260 </p><p>© 2025 Camille Gonzalez. All Rights Reserved.</p>
     </footer>
-
 </body>
 </html>
